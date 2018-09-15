@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EYDownLoadManager_Example' do
+  pod 'EYDownLoadManager', :path => '../'
+
+  target 'EYDownLoadManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
